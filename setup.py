@@ -49,6 +49,7 @@ setup(
     version=version,
     description="""kradmin reusable app for Django""",
     long_description=readme + '\n\n' + history,
+    long_description_content_type='text/x-rst',
     author='bushig',
     author_email='azerot966@gmail.com',
     url='https://github.com/bushig/django-kradmin',
@@ -61,7 +62,7 @@ setup(
     zip_safe=False,
     keywords='django-kradmin',
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 1 - Planning',
         'Framework :: Django :: 2.0',
         'Framework :: Django :: 2.1',
         'Framework :: Django :: 2.2',
