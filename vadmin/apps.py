@@ -2,5 +2,5 @@
 from django.apps import AppConfig
 
 
-class KradminConfig(AppConfig):
-    name = 'kradmin'
+class VadminConfig(AppConfig):
+    name = 'vadmin'

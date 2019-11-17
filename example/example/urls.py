@@ -19,5 +19,5 @@ from django.contrib import admin
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/kadmin/', include('kradmin.urls', namespace='kradmin')),
+    path('api/kadmin/', include('vadmin.urls', namespace='vadmin')),
 ]

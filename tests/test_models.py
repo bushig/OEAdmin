@@ -2,18 +2,18 @@
 # -*- coding: utf-8 -*-
 
 """
-test_django-kradmin
+test_django-vadmin
 ------------
 
-Tests for `django-kradmin` models module.
+Tests for `django-vadmin` models module.
 """
 
 from django.test import TestCase
 
-from kradmin import models
+from vadmin import models
 
 
-class TestKradmin(TestCase):
+class Testvadmin(TestCase):
 
     def setUp(self):
         pass

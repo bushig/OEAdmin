@@ -5,7 +5,7 @@ from django.views.generic import TemplateView
 from . import views
 
 
-app_name = 'kradmin'
+app_name = 'vadmin'
 # Use ~ to identify actions
 urlpatterns = [
     path("dashboard/~create/",

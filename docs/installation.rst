@@ -4,9 +4,9 @@ Installation
 
 At the command line::
 
-    $ easy_install django-kradmin
+    $ easy_install django-vadmin
 
 Or, if you have virtualenvwrapper installed::
 
-    $ mkvirtualenv django-kradmin
-    $ pip install django-kradmin
+    $ mkvirtualenv django-vadmin
+    $ pip install django-vadmin

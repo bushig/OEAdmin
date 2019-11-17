@@ -16,7 +16,7 @@ class DashboardCreateView(CreateView):
 
     model = Dashboard
     fields = ()
-    template_name = 'kradmin/base.html'
+    template_name = 'vadmin/base.html'
 
 
 # class OrderDeleteView(DeleteView):

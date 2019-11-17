@@ -2,25 +2,25 @@
 Usage
 =====
 
-To use django-kradmin in a project, add it to your `INSTALLED_APPS`:
+To use django-vadmin in a project, add it to your `INSTALLED_APPS`:
 
 .. code-block:: python
 
     INSTALLED_APPS = (
         ...
-        'kradmin.apps.KradminConfig',
+        'vadmin',
         ...
     )
 
-Add django-kradmin's URL patterns:
+Add django-vadmin's URL patterns:
 
 .. code-block:: python
 
-    from kradmin import urls as kradmin_urls
+    from vadmin import urls as vadmin_urls
 
 
     urlpatterns = [
         ...
-        url(r'^', include(kradmin_urls)),
+        url(r'^', include(vadmin_urls)),
         ...
     ]

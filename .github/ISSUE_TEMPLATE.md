@@ -1,7 +1,7 @@
-* django-kradmin version:
-* Django version:
-* Python version:
-* Operating System:
+-   django-vadmin version:
+-   Django version:
+-   Python version:
+-   Operating System:
 
 ### Description
 
