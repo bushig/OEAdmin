@@ -5,5 +5,5 @@ from django.urls import path, include
 
 
 urlpatterns = [
-    path('', include('vadmin.urls', namespace='vadmin')),
+    path('', include('django_vadmin.urls', namespace='vadmin')),
 ]

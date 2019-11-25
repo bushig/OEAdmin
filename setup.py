@@ -11,7 +11,7 @@ except ImportError:
 
 
 def get_version(*file_paths):
-    """Retrieves the version from vadmin/__init__.py"""
+    """Retrieves the version from django_vadmin/__init__.py"""
     filename = os.path.join(os.path.dirname(__file__), *file_paths)
     version_file = open(filename).read()
     version_match = re.search(r"^__version__ = ['\"]([^'\"]*)['\"]",
@@ -21,7 +21,7 @@ def get_version(*file_paths):
     raise RuntimeError('Unable to find version string.')
 
 
-version = get_version("vadmin", "__init__.py")
+version = get_version("django_vadmin", "__init__.py")
 
 
 if sys.argv[-1] == 'publish':
@@ -47,14 +47,14 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 setup(
     name='django-vadmin',
     version=version,
-    description="""vadmin reusable app for Django""",
+    description="""Vadmin backend for Django""",
     long_description=readme + '\n\n' + history,
     long_description_content_type='text/x-rst',
     author='bushig',
     author_email='azerot966@gmail.com',
     url='https://github.com/bushig/django-vadmin',
     packages=[
-        'vadmin',
+        'django_vadmin',
     ],
     include_package_data=True,
     install_requires=["django-model-utils>=2.0", ],

@@ -31,7 +31,7 @@ Add it to your `INSTALLED_APPS`:
 
     INSTALLED_APPS = (
         ...
-        'vadmin',
+        'django_vadmin',
         ...
     )
 
@@ -39,7 +39,7 @@ Add django-vadmin's URL patterns:
 
 .. code-block:: python
 
-    from vadmin import urls as vadmin_urls
+    from django_vadmin import urls as vadmin_urls
 
 
     urlpatterns = [

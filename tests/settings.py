@@ -22,7 +22,10 @@ INSTALLED_APPS = [
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sites",
-    "vadmin",
+
+    "django_vadmin",
+
+    'rest_framework',
 ]
 
 SITE_ID = 1

@@ -10,7 +10,7 @@ Tests for `django-vadmin` models module.
 
 from django.test import TestCase
 
-from vadmin import models
+from django_vadmin import models
 
 
 class Testvadmin(TestCase):
